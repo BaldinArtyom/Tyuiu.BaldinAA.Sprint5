@@ -8,17 +8,13 @@ namespace Tyuiu.BaldinAA.Sprint5.Task3.V11.Lib
     {
         public string SaveToFileTextData(int x)
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask3.bin";
+            string path = Path.GetTempFileName();
             double y = Math.Round((4 - Math.Pow(x, 3)) / (Math.Pow(x, 2)), 3);
-
-
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate), Encoding.UTF8))
             {
                 writer.Write(BitConverter.GetBytes(y));
             }
-
-
-            return path; ;
+            return path;
         }
     }
 }
