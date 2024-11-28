@@ -6,14 +6,14 @@ namespace Tyuiu.BaldinAA.Sprint5.Task0.V20
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #5 | Выполнил: Брезина Ю. С. | ИИПб-24-2";
+            Console.Title = "Спринт #5 | Выполнил: Балдин А. А. | ИБКСб-24-1";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #20                                                             *");
-            Console.WriteLine("* Выполнил: Брезина Юлия Сергеевна | ИИПб-24-2                            *");
+            Console.WriteLine("* Выполнил: Балдин Артём Александрович | ИБКСб-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Вычислить его значение при x = 2, результат сохранить в текстовый файл  *");
